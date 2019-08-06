@@ -1,0 +1,170 @@
+/* HEIGHT 100% */
+html, body {height: 100%;}
+.bloco {min-height: 100%; padding-top: 120px;}
+
+/* COLORS */
+.blue-logo {background-color: #69baff;}
+.red-logo {background-color: #ff334b;}
+
+/* LOGO */
+.logo_text {
+	font-size: 0;
+	margin: 0;
+}
+
+.logo_img {
+	width: 200px;
+}
+
+/* MENU */
+.navbar {
+	background: transparent;
+	transition: background 0.5s linear;
+}
+
+.navbar ul a:hover {
+	background: transparent;
+	color: #ff334b;
+}
+
+.nav-color {
+	background-color: rgba(0,0,0,0.7);
+	transition: blackground 0.5s linear;
+}
+
+/* HOME */
+.home {
+	background-image: url('../img/textura1.png');
+	margin-top: -100px;
+}
+
+.banner h2 {
+	font-size: 2.5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.banner p {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+
+/* TITULO E PARAGRAFO */
+.titulo {
+	font-size: 2.3rem;
+	text-transform: uppercase;
+}
+
+.titulo::after {
+	content: '';
+	display: block;
+	width: 100px;
+	border-top: 1px solid #ff334b;
+	margin: 15px auto;
+}
+
+.paragrafo {line-height: 1.8rem;}
+
+/* SOBRE */
+.sobre {
+	background-image: url('../img/textura3.png');
+	margin-top: -20px;
+	padding-top: 90px;
+}
+
+.sobre p {
+	line-height: 1.8rem;
+	text-align: justify;
+}
+
+/* PROJETOS */
+.projetos {
+	background-image: url('../img/textura2.png');
+	margin-top: -25px;
+}
+
+.projetos-portfolio h4 {color: #69baff;}
+
+.desktop {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.mobile {
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+/* CONTATO */
+.contato {background-image: url('../img/textura3.png');}
+
+.contato h4 {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.contato .mapa {min-height: 560px;}
+
+.contato .mapa iframe {
+	width: 100%;
+	min-height: 560px;
+	border: none;
+}
+
+.contato .informacoes {
+	background-image: url('../img/textura4.png');
+	min-height: 560px;
+	padding: 30px;
+}
+
+.contato .formulario {
+	min-height: 560px;
+	padding: 30px;
+}
+
+/* RODAPÉ */
+.rodape {
+	background-image: url('../img/textura1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+
+/* CUSTOM */
+nav.nav-extended .nav-wrapper {
+  min-height: 94px;
+}
+
+.navbar-fixed {
+  position: relative;
+  height: 94px;
+}
+
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i {
+  height: 94px;
+  line-height: 94px;
+}
+
+.side-nav {background: url('../img/textura4.png');}
+
+.side-nav li>a {color: #fff; font-weight: 100;}
+
+.row {margin-bottom: 0px;}
+
+/* MEDIA */
+@media only screen and (max-width: 508px) {
+	.mobile {width: 100%;}
+}
+
+@media only screen and (min-width: 601px) {
+	.banner {padding-top: 4.5rem;}
+	.banner h2 {font-size: 4rem;}
+}
+
+@media only screen and (min-width: 993px) {
+	.banner {padding-top: 4.5rem;}
+	.banner h2 {font-size: 4.5rem;}
+}
